@@ -25,7 +25,7 @@ Then open your browser to: `http://localhost:8000`
 If you have Node.js installed with http-server:
 ```bash
 npm install -g http-server
-cd c:\Users\holly\Documents\divergent
+cd c:\Users\USERNAME\Documents\divergent
 http-server -p 8000
 ```
 Then open your browser to: `http://localhost:8000`
