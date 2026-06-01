@@ -1,6 +1,8 @@
 # Divergent Faction Selector
 
-An interactive quiz app to determine which Divergent faction you belong to, based on 20 carefully designed questions.
+An interactive quiz app to determine which Divergent faction you belong to, based on 20 carefully designed questions - based off https://hungergamesdistrict.figma.site/
+
+Access via https://hrebaw.github.io/divergent-quiz/
 
 ## Factions
 
@@ -14,7 +16,7 @@ An interactive quiz app to determine which Divergent faction you belong to, base
 
 ### Option 1: Python (Recommended)
 ```bash
-cd c:\Users\holly\Documents\divergent
+cd c:\Users\USERNAME\Documents\divergent
 python -m http.server 8000
 ```
 Then open your browser to: `http://localhost:8000`
