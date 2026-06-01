@@ -31,12 +31,13 @@ body {
 }
 
 .container {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
+    width: 100%;
+    max-width: 100%;
 }
 
 .page {
@@ -51,6 +52,8 @@ body {
 
 .page.active {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @keyframes fadeIn {
