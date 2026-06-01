@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divergent Faction Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Landing Page -->
+    <div id="landingPage" class="page active">
+        <div class="container">
+            <div class="logo-section">
+                <div class="faction-seal">
+                    <div class="seal-symbol">◐</div>
+                </div>
+                <h1 class="header-title">FACTION SELECTOR</h1>
+            </div>
+            <div class="content">
+                <h1 class="main-title">which faction are you from?</h1>
+                <p class="subtitle">divergent faction behavioral assessment</p>
+            </div>
+            <button id="beginBtn" class="btn-primary">BEGIN ASSESSMENT</button>
+        </div>
+    </div>
+
+    <!-- Quiz Page -->
+    <div id="quizPage" class="page">
+        <div class="container">
+            <div class="quiz-header">
+                <div class="progress-bar">
+                    <div id="progressFill" class="progress-fill"></div>
+                </div>
+                <p id="questionCounter" class="question-counter">Question 1 of 20</p>
+            </div>
+            <div class="quiz-content">
+                <h2 id="questionText" class="question-text"></h2>
+                <div id="optionsContainer" class="options-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Page -->
+    <div id="resultsPage" class="page">
+        <div class="container">
+            <div class="results-content">
+                <h1 id="factionName" class="faction-title"></h1>
+                <div id="factionSymbol" class="faction-symbol"></div>
+                <p id="factionDescription" class="faction-description"></p>
+                <div id="factionTraits" class="faction-traits"></div>
+                <button id="retakeBtn" class="btn-primary">RETAKE ASSESSMENT</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
